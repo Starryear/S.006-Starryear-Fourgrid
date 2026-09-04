@@ -1,0 +1,4 @@
+interface:
+  display_name: "Starryear-Fourgrid"
+  short_description: "保留原片，把一张照片转译成相互连通的四态摄影抽象四宫格成品"
+  default_prompt: "Use $starryear-fourgrid to transform this photograph into a clean vertical 2×2 quartet with locked photographic evidence and a source-derived central junction."
