@@ -1,4 +1,4 @@
 interface:
-  display_name: "Starryear-Fourgrid"
-  short_description: "保留原片，把一张照片转译成相互连通的四态摄影抽象四宫格成品"
-  default_prompt: "Use $starryear-fourgrid to transform this photograph into a clean vertical 2×2 quartet with locked photographic evidence and a source-derived central junction."
+  display_name: "【S-006】Starryear-2x2"
+  short_description: "把照片递进为原片、湿性记忆、点线谱面与超现实关系场"
+  default_prompt: "使用 $s-006-starryear-2x2 将我上传的照片制作成严格源图取色、关系逐格转译且全图无字的竖版四宫格。"

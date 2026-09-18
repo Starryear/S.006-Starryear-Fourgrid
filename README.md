@@ -1,123 +1,129 @@
 <div align="center">
 
-# 【S.006】Starryear-Fourgrid丨星年·四格
+# ◫ 【S-006】Starryear-2x2
 
-**一张照片，四次抵达。摄影证据、诗意提炼、节奏结构与抽象灵魂在同一画面中彼此生长。**
+**把一张照片递进为原片、消散记忆、点线谱面与超现实关系场。**
 
-**One photograph, four arrivals—evidence, poetic distillation, rhythmic structure, and abstract soul.**
-
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-111111?style=for-the-badge&logo=openai&logoColor=white)](./SKILL.md)
-[![S.006](https://img.shields.io/badge/Starryear-S.006-D6A63B?style=for-the-badge)](https://starryear.github.io/S.006-Starryear-Fourgrid/)
-[![Usage](https://img.shields.io/badge/Usage-Personal%20%26%20Non--commercial-EAE5DA?style=for-the-badge)](./LICENSE.md)
-[![Language](https://img.shields.io/badge/中文-English-708C85?style=for-the-badge)](#english)
-
-[专属网站](https://starryear.github.io/S.006-Starryear-Fourgrid/) · [安装 Skill](#作为-codex-skill-使用) · [直接使用提示词](#直接使用完整提示词)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-000000?style=for-the-badge&logo=openai&logoColor=white)
+[![Usage](https://img.shields.io/badge/Usage-Personal%20%26%20Non--commercial-lightgrey?style=for-the-badge)](./LICENSE.md)
+![Language](https://img.shields.io/badge/🌐_中文-English-blue?style=for-the-badge)
 
 </div>
 
 ---
 
-> **仅限个人学习、非营利研究与非商业创作。**任何商业使用均须事先取得 Starryear年 的书面许可。分享作品时，欢迎注明来源并 **@Starryear年**。完整条款见 [LICENSE.md](./LICENSE.md)。
+## ⚠️ 声明
 
-## 关于 S.006
-
-Starryear-Fourgrid 是一套以单张摄影为唯一视觉证据的 2×2 转译方法。左上保留真实照片像素，右上凝缩诗意记忆，左下抽取结构节奏，右下释放抽象灵魂；一个来自原主体的中央线索穿越四格，使作品成为连续叙事，而非四种滤镜的并列。
-
-- ✅ 原片证据被锁定，不重新生成左上格
-- ✅ 色彩、形状、方向、节奏和超现实变化均可追溯至原图
-- ✅ 同时提供可安装的 Codex Skill 与中英双语完整提示词
-- ❌ 不生成通用水墨山水、无来源装饰、四张重复图或整图滤镜
-
-## 两种路径，24 件作品
-
-同一视觉命题分别通过完整提示词与 Codex Skill 运行。下方各展示 12 件经 Starryear年 认可的最终作品；它们是方法的证据，不是供模型照抄的模板。
-
-| 完整提示词生成 · Direct Prompt | Skill 生成 · Codex Skill |
-| :---: | :---: |
-| ![Lotus Memory](assets/examples/prompt/s006-prompt-01-lotus-memory.webp) | ![Rain Walker](assets/examples/skill/s006-skill-01-rain-walker.webp) |
-| ![Spider Lily](assets/examples/prompt/s006-prompt-02-spider-lily.webp) | ![Lotus Bloom](assets/examples/skill/s006-skill-02-lotus-bloom.webp) |
-| ![Silent Stones](assets/examples/prompt/s006-prompt-03-silent-stones.webp) | ![Autumn Light](assets/examples/skill/s006-skill-03-autumn-light.webp) |
-| ![White Tulips](assets/examples/prompt/s006-prompt-04-white-tulips.webp) | ![Yellow Surveillance](assets/examples/skill/s006-skill-04-yellow-surveillance.webp) |
-| ![Skyward Bloom](assets/examples/prompt/s006-prompt-05-skyward-bloom.webp) | ![Pink Bloom](assets/examples/skill/s006-skill-05-pink-bloom.webp) |
-| ![Waterlily Study A](assets/examples/prompt/s006-prompt-06-waterlily-study-a.webp) | ![Cockatoo](assets/examples/skill/s006-skill-06-cockatoo.webp) |
-| ![Waterlily Study B](assets/examples/prompt/s006-prompt-07-waterlily-study-b.webp) | ![White Tulips](assets/examples/skill/s006-skill-07-white-tulips.webp) |
-| ![Magnolia Blue](assets/examples/prompt/s006-prompt-08-magnolia-blue.webp) | ![Crows at the Waterline](assets/examples/skill/s006-skill-08-crows-at-waterline.webp) |
-| ![Autumn Tower](assets/examples/prompt/s006-prompt-09-autumn-tower.webp) | ![Birds over Lake](assets/examples/skill/s006-skill-09-birds-over-lake.webp) |
-| ![Pink Blossom](assets/examples/prompt/s006-prompt-10-pink-blossom.webp) | ![Red Koi](assets/examples/skill/s006-skill-10-red-koi.webp) |
-| ![Ripple Through Green](assets/examples/prompt/s006-prompt-11-ripple-through-green.webp) | ![Magnolia Sky](assets/examples/skill/s006-skill-11-magnolia-sky.webp) |
-| ![Birds and Distance](assets/examples/prompt/s006-prompt-12-birds-and-distance.webp) | ![Geese Ripple](assets/examples/skill/s006-skill-12-geese-ripple.webp) |
-
-## 使用方法
-
-### 作为 Codex Skill 使用
-
-1. 下载本仓库，将文件夹命名为 `starryear-fourgrid`。
-2. 把它放入 Codex skills 目录，例如 `~/.codex/skills/`。
-3. 开启新对话，上传一张你拥有或获准使用的照片。
-4. 输入：`使用 $starryear-fourgrid 把这张照片制作成星年·四格。`
-
-Skill 将生成三个转译面板和一个中央连接母题，并把真实原片确定性拼入左上格，输出一张竖向 2:3 PNG。
-
-### 直接使用完整提示词
-
-| 语言 | Markdown | 纯文本 |
-| :---: | :--- | :--- |
-| 中文 | [完整提示词](references/starryear-fourgrid-prompt.zh-CN.md) | [复制友好版](prompts/Starryear-Fourgrid-完整提示词-中文.txt) |
-| English | [Full prompt](references/starryear-fourgrid-prompt.en.md) | [Plain-text edition](prompts/Starryear-Fourgrid-Full-Prompt-English.txt) |
-
-## 可调整参数
-
-| 参数 | 可调整范围 |
-| :--- | :--- |
-| 源图适配 | 在关键证据不受损的前提下轻微裁切，或使用源图浅色补边 |
-| 中央母题 | 调整方向、跨格位置和覆盖面积，通常保持总画布的 3%–8% |
-| 材质强度 | 在精确墨线、干印残迹与透明彩墨之间微调 |
-| 抽象程度 | 调整第二至第四格的辨识度递减速度，但保持统一视觉 DNA |
-| 文字 | 默认无字；用户明确要求时再以确定性方式后期添加 |
-
-## 不可改变的原则
-
-1. **摄影证据锁定**：左上格只使用真实原图像素。
-2. **转译可追溯**：每个重要形状、色彩与事件都来自原图事实。
-3. **四态递进**：作品从可见事实逐步走向非写实表达。
-4. **中央线索相连**：连接母题是材料转换的铰链，不是贴纸或第五格。
-
-## 项目结构
-
-```text
-starryear-fourgrid/
-├── README.md
-├── LICENSE.md
-├── SKILL.md
-├── index.html
-├── styles.css
-├── script.js
-├── agents/openai.yaml
-├── assets/examples/
-│   ├── prompt/            # 12 件提示词生成作品
-│   └── skill/             # 12 件 Skill 生成作品
-├── prompts/               # 中英文纯文本完整提示词
-├── references/            # 完整规范、艺术方向与质量门槛
-└── scripts/
-    └── assemble_fourgrid.py
-```
+> **仅限个人学习、非营利研究与非商业创作。**
+> 任何商业使用均须事先取得 Starryear年 的书面许可。
+>
+> 分享作品时，欢迎标注“使用 Skill：Starryear-2x2”并 **@Starryear年**。
 
 ---
 
-<a id="english"></a>
+## 📖 关于本项目
 
-## English
+本 Skill 将一张用户拥有合法权利的照片编排为精确的竖版 2×2 四宫格：左上保留真实原片，右上提炼成湿润消散的记忆，左下转为干性点线谱面，右下则保留原图的关系地图并替换对象身份，形成具有纵深的超现实场域。它固定的是四级变化逻辑，而不是测试照片的题材、色调、形状或构图。生成部分只能使用当前原图的内容关系与色彩系统。
 
-Starryear-Fourgrid transforms one authorized photograph into a vertical 2×2 artwork. The upper-left panel preserves the source pixels; the other three panels move through poetic distillation, rhythmic structure, and abstract soul. A restrained, source-derived junction links the four states.
+- ✅ 保留原片证据，并让抽象程度逐格增加而画面密度不降低
+- ✅ 从原图提取色彩、方向、间隔、重复、层级、张力与 `SOUL STATEMENT`
+- ✅ 左下以点线映射真实轨迹和计数组；右下执行“关系保留、对象换壳”
+- ✅ 每次换图都重新分析题材、色板、主轴与计数组；左上永远使用当次上传的真实原片
+- ✅ 三个生成格共享源图 DNA，但分别保持透明湿性、干性点线与空间体积三种主导语言
+- ❌ 不生成四个滤镜、四幅无关作品、三张简化主体或通用装饰水墨
 
-Use it as an installable [Codex Skill](./SKILL.md), or run the complete [English prompt](references/starryear-fourgrid-prompt.en.md) directly. The two galleries above contain twelve approved works from each route. They demonstrate the method but must never be reused as subject, palette, or composition templates.
+> 📝 The Skill includes the complete prompt in both **Chinese** and **English**.
 
-Personal learning, non-profit research, and non-commercial creative use are permitted. Commercial use requires prior written authorization from Starryear年. See [LICENSE.md](./LICENSE.md).
+---
+
+## 🖼️ 示例作品
+
+![S-006 transformation example](assets/examples/s-006-starryear-2x2-approved-example.png)
+
+> 本图仅示范“原片证据 → 消散记忆 → 点线谱面 → 关系保留但对象换壳”的变化逻辑。执行 Skill 时不得参考或复用示例中的题材、白绿色调、数量、形状、空间替身或构图。
+
+---
+
+## 📋 目录
+
+- [使用方法](#-使用方法)
+- [可自由调整的部分](#-可自由调整的部分)
+- [核心原则](#-核心原则)
+- [内容结构](#-内容结构)
+- [许可证](#-许可证)
+
+---
+
+## 🚀 使用方法
+
+### 方式一：作为 Codex Skill 使用
+
+1. 将整个 `s-006-starryear-2x2` 文件夹复制到 Codex skills 目录，例如 `~/.codex/skills/`。
+2. 开启新的 Codex 对话并上传一张你拥有合法使用权的照片。
+3. 提出需求：
+
+   > 使用 `s-006-starryear-2x2` 把这张照片做成竖版抽象四宫格。
+
+4. Skill 只返回一张完成的竖版 2:3 四宫格作品。
+
+### 方式二：作为提示词直接使用
+
+| 语言 | 文件 |
+| :---: | :--- |
+| 🇨🇳 中文 | [references/s-006-starryear-2x2-prompt.zh-CN.md](references/s-006-starryear-2x2-prompt.zh-CN.md) |
+| 🇬🇧 English | [references/s-006-starryear-2x2-prompt.en.md](references/s-006-starryear-2x2-prompt.en.md) |
+
+---
+
+## 🎛️ 可自由调整的部分
+
+| 参数 | 说明 |
+| :--- | :--- |
+| **输出尺寸** | 推荐 2000×3000；可提高分辨率，但总画布与每格都必须保持竖版 2:3。 |
+| **点线密度** | 可随原图重复单元调整，但左下必须由多组不等距节点和至少三条源图轨迹主导。 |
+| **空间替身** | 右下可依据当前源图选择体积、折叠、通道、地形或其他关系载体，但不能套用示例形状。 |
+
+---
+
+## 💡 核心原则
+
+1. **原图唯一来源** — 所有主体、关系、色彩、情绪温度与背景偏色都来自用户照片。
+2. **抽象递进但不变空** — 写实信息逐格减少，结构尺度、节奏、色域和方向能量逐格增强。
+3. **强点线谱面** — 左下格由点与线承担主要信息，轴线、节点、计数组、疏密与地标必须映射原图，不做通用坐标网格。
+4. **消除主体剪影** — 左下不能先读成树、花、人、建筑或其他原物；辨识来自关系映射而不是轮廓复刻。
+5. **关系保留、对象换壳** — 右下保留位置、层级、计数、方向和压力，但必须替换对象身份；既不重画原物，也不做无来源几何。
+6. **主色比例锁定** — 生成格保留原图主色的面积与明度层级，避免被米白纸底或灰洗稀释。
+7. **全图无字** — 成品禁止标题、英文、数字、日期、档案号、签名、水印和伪文字。
+8. **四格共享 DNA** — 同一主轴、明暗层级、非对称平衡、计数组、节奏与灵魂命题贯穿全部生成格。
+
+---
+
+## 📁 内容结构
+
+```text
+s-006-starryear-2x2/
+├── README.md
+├── LICENSE.md
+├── SKILL.md
+├── agents/openai.yaml
+├── references/
+│   ├── s-006-starryear-2x2-prompt.zh-CN.md
+│   └── s-006-starryear-2x2-prompt.en.md
+└── assets/examples/
+```
+
+> ⚠️ `assets/examples/` 仅收录 Starryear年 已确认的最终成品。示例只展示转译方法，不是元素、配色或构图参考。
+
+---
+
+## 📄 许可证
+
+本项目采用 [LICENSE.md](./LICENSE.md) 中规定的使用条款。版权及商务授权联系：[Starryear@outlook.com](mailto:Starryear@outlook.com)。
+
+---
 
 <div align="center">
 
-**S.006 is a milestone in the Starryear visual-skill archive.**
-
-Authored by **Starryear年** · © 2026
+**如果这个项目对你有帮助，欢迎 Star ⭐ 支持！**
 
 </div>
